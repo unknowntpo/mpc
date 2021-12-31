@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -g -Wall -std=c99
-LDFLAGS =
+LDFLAGS = -ledit
 
 # Control the build verbosity
 ifeq ("$(VERBOSE)","1")
